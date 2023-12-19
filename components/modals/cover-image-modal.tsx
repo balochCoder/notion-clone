@@ -26,6 +26,7 @@ export const CoverImageModal = () => {
     setIsSubmitting(false);
     coverImage.onClose();
   };
+
   const onChange = async (file?: File) => {
     if (file) {
       setIsSubmitting(true);
