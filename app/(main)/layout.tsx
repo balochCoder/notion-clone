@@ -18,8 +18,8 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
   }
 
   if (!isAuthenticated) {
-    return notFound();
-    // return redirect('/')
+    // return notFound();
+    return redirect('/')
   }
   return (
     <div className="h-full flex dark:bg-[#1f1f1f]">
